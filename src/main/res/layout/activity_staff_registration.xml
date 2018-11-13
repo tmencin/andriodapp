@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.StaffRegistration">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TextView Title -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff Registration"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <!-- Radiogroup for type selection -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <!-- RadioButton for Landscaper -->
+        <RadioButton
+            android:id="@+id/rbLandscaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landscaper"
+            android:checked="true"
+            />
+
+       <!-- RadioButton for Admin -->
+        <RadioButton
+            android:id="@+id/rbAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            />
+
+        </RadioGroup>
+
+        <!-- TextView First Name-->
+        <TextView
+            android:textAlignment="center"
+            android:text="First Name"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewFirstName"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText for First Name -->
+        <EditText
+            android:hint="Enter First Name"
+            android:id="@+id/EditTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Landscaper-->
+        <TextView
+            android:textAlignment="center"
+            android:text="Last Name"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewLastName"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText LastName-->
+        <EditText
+            android:hint="Enter Last Name"
+            android:id="@+id/EditTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Email Address-->
+        <EditText
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email"
+            android:id="@+id/EditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Password-->
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:id="@+id/EditTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Comfrim Password-->
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Comfrim password"
+            android:id="@+id/EditTextConfrimPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/buttonRegister"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

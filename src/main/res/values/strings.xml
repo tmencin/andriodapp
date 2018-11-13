@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Poplartree</string>
+
+    <string name="welcometextview">Welcome to Poplar Tree services</string>
+
+    <string name="logincustomer">Click Here to login/register as customer</string>
+    <string name="loginlandscaper">Click Here to login as staff member</string>
+    <string name="title_activity_customer_welcome">CustomerWelcome</string>
+    <string name="title_activity_landscaper_welcome">LandscaperWelcome</string>
+    <string name="customerregister">Click Here to register!</string>
+    <string name="customerlogin">Click Here to login! </string>
+
+
+    <string name="customer_firstName">Enter Name</string>
+    <string name="customer_lastName">Enter Last name</string>
+    <string name="task_describtion">Enter task describtion</string>
+    <string name="requestjobbutton">Request Job</string>
+    <string name="Address">Enter address</string>
+    <string name="customer_Email">Enter Email</string>
+    <string name="phone">Enter Phone Number</string>
+    <string name="title_activity_landscaper_job_quote">LandscaperJobQuote</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_customer_view_job_quote">CustomerViewJobQuote</string>
+</resources>

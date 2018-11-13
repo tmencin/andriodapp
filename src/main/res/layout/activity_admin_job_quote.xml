@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!-- Textview Title -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Job Assignment" />
+
+        <!-- TextView for Selection Screen -->
+        <TextView
+        android:id="@+id/selectionscreentextview_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Nothing has been selected, Please select job from list"
+        android:textSize="18sp"
+        android:layout_above="@id/lv_mainlist"
+        />
+
+        <!-- TextView For Landscaper -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please select the Landscaper" />
+
+        <!-- Spinner For Landscapers-->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Startdate -->
+        <EditText
+            android:id="@+id/etStartdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Click here to Select a date!"
+            android:editable="false"   />
+
+
+        <!-- EditText StartTime-->
+        <EditText
+            android:id="@+id/etStarttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Click here to Time"
+            android:editable="false"
+            />
+
+        <!-- TextView Job Request for User-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Jobs Request" />
+
+
+        <!-- Listview for Requested Jobs -->
+        <ListView
+            android:id="@+id/lv_mainlist"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_below="@id/selectionscreentextview_display"
+
+            />
+
+        <!-- Button for Assigned Job -->
+        <Button
+            android:id="@+id/buttonAssignJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Assign Job to Landscaper" />
+
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Back" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

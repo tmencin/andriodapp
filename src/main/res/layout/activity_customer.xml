@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.poplartree.CustomerActivity"
+   >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:gravity="right" >
+
+            <!-- Logout button -->
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#c7eec6"
+                android:text="Logout"
+                />
+
+            <!-- Poplar Logo -->
+            <ImageView
+
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/poplarlogo" />
+
+            <!-- Textview for user email -->
+            <TextView
+                android:id="@+id/textViewUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textViewUserEmail" />
+
+            <!-- Button Requested job -->
+            <Button
+                android:id="@+id/buttonRequestJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c7eec6"
+                android:text="Request Job" />
+
+            <!-- View Job Quote button -->
+            <Button
+                android:id="@+id/buttonViewJobQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c7eec6"
+                android:text="View Job Quote" />
+
+            <!-- View invoice and Payment button -->
+            <Button
+                android:id="@+id/buttonViewInVoiceAndPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c7eec6"
+                android:text="View invoice and make payment" />
+
+            <!-- History and Feedback button -->
+            <Button
+                android:id="@+id/buttonHistoryAndFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c7eec6"
+                android:text="History and Provide Feedback" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

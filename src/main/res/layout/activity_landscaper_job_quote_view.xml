@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.LandscaperJobQuoteView">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!-- TextView Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide Job Quote"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- TextView Selection Screen Display -->
+        <TextView
+            android:id="@+id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Nothing Selected, Please select the job"
+            android:textSize="18sp"
+            android:layout_above="@id/lv_mainlist"
+            />
+
+        <!-- Linear Layout to put them size to size -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <!-- Button Open Job Quote -->
+        <Button
+            android:id="@+id/buttonJobQuoteOpen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Open Job Quote"
+            android:backgroundTint="#c7eec6"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Back" />
+
+        </LinearLayout>
+
+        <!-- TextView to inform users -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Assigned Job Quotes:"
+            android:textSize="16dp"/>
+
+        <!-- ListView to all Landscaper Jobs -->
+        <ListView
+            android:id="@+id/lv_mainlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectionscreentextview_display"
+            />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

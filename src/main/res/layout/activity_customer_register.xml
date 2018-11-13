@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TextView First Name -->
+        <TextView
+            android:textAlignment="center"
+            android:text="First Name"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewFirstName"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText First Name -->
+        <EditText
+            android:hint="Enter First Name"
+            android:id="@+id/EditTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Last Name -->
+        <TextView
+            android:textAlignment="center"
+            android:text="Last Name"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewLastName"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Last Name -->
+        <EditText
+            android:hint="Enter Last Name"
+            android:id="@+id/EditTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView View Address -->
+        <TextView
+            android:textAlignment="center"
+            android:text="Adresss"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewAddress"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Address -->
+        <EditText
+            android:hint="Address Line 1"
+            android:id="@+id/EditTextAddress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Address -->
+        <EditText
+            android:hint="Address Line 2"
+            android:id="@+id/EditTextAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Address -->
+        <EditText
+            android:hint="Address Line 3"
+            android:id="@+id/EditTextAddress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Phone Number -->
+        <TextView
+            android:textAlignment="center"
+            android:text="Phone Number"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewPhoneNumber"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Phone Number -->
+        <EditText
+            android:hint="Phone Number"
+            android:id="@+id/EditTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <!-- EditText Email Address-->
+        <EditText
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email"
+            android:id="@+id/EditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Password-->
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:id="@+id/EditTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- EditText Confrim Password -->
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Comfrim password"
+            android:id="@+id/EditTextConfrimPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Button Register -->
+        <Button
+            android:id="@+id/buttonRegister"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint=	"#c7eec6"
+            />
+
+        <!-- TextView Register Customer -->
+        <TextView
+            android:textAlignment="center"
+            android:text="Already registered?"
+            android:layout_width="match_parent"
+            android:id="@+id/TextViewSignin"
+            android:layout_height="wrap_content" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#c7eec6"
+            />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

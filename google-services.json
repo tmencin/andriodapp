@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1093567450223",
+    "firebase_url": "https://poplartreeservices-d68d1.firebaseio.com",
+    "project_id": "poplartreeservices-d68d1",
+    "storage_bucket": "poplartreeservices-d68d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093567450223:android:39349b8e21a01d2a",
+        "android_client_info": {
+          "package_name": "com.example.poplartree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093567450223-ftocrqf31980d06g2embmqlupje6bm66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHrDpJH_TYLsfKwK8JfULvKlG8UXtKecU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

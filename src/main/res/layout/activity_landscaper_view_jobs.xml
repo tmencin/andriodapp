@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.LandscaperViewJobs">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!-- TextView Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Accepted Quotes"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <!-- TextView Selection Screen Display -->
+        <TextView
+            android:id="@+id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Nothing Selected, Please select the job!"
+            android:textSize="18sp"
+            android:layout_above="@id/lv_mainlist"
+            />
+
+        <!-- EditText Completed Date-->
+        <EditText
+            android:id="@+id/EditTextCompleteddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Click here to Completion date!"
+            android:editable="false"
+            />
+
+        <!-- EditText Completed Time -->
+        <EditText
+            android:id="@+id/EditTextCompletedTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Click here to Time"
+            android:editable="false"
+            />
+
+        <!-- Adding linear layout to put buttons together -->
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Job Completed Button -->
+        <Button
+            android:id="@+id/buttonJobCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Job Completed"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#c7eec6"
+            android:text="Back" />
+
+    </LinearLayout>
+
+        <!-- TextView Quotes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Accepted Job Quotes:" />
+
+        <!-- ListView for All Accepted Landscaper Quotes -->
+        <ListView
+            android:id="@+id/lv_mainlist"
+            android:layout_below="@id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

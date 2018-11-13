@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.LandscaperHistory">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Customer Feedback For Completed Jobs"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- TextView Selection Screen Diplay -->
+        <TextView
+            android:id="@+id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="You haven't selected a job"
+            android:textSize="18sp"
+            android:layout_above="@id/lv_mainlist"
+            />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Back" />
+
+        <!-- TextView Completed Jobs -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Completed Jobs:" />
+
+        <!-- ListView with job history -->
+        <ListView
+            android:id="@+id/lv_mainlist"
+            android:layout_below="@id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

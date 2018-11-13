@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.poplartree.LandscaperActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="right" >
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Logout" />
+
+        <!-- Poplar Logo -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/poplarlogo" />
+
+        <!-- TextView for UserInfo -->
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textViewUserEmail" />
+
+        <!-- Provide Job Quote -->
+        <Button
+            android:id="@+id/buttonProvideJobQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Provide Job quote" />
+
+        <!-- View Accepted Quote -->
+        <Button
+            android:id="@+id/buttonViewAcceptedQuoutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="View Accepted Quotes" />
+
+        <!-- View Customer Feedback for Completed Jobs -->
+        <Button
+            android:id="@+id/buttonHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="View Customer feedback for completed jobs" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    >
+
+    <!-- TextView Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Quotes"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- TextView Selection Screen Display -->
+    <TextView
+        android:id="@+id/selectionscreentextview_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lv_mainlist"
+        android:layout_alignParentTop="true"
+        android:text="Nothing Selected! Please select Job Quote"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <!-- TextView Quotes -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Job Quotes:" />
+
+    <!-- ListView for job Quotes -->
+    <ListView
+        android:id="@+id/lv_mainlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectionscreentextview_display"
+        />
+
+    <!-- Accepted Quote Button-->
+    <Button
+        android:id="@+id/buttonAcceptQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Quote!"
+        android:backgroundTint="#c7eec6"/>
+
+    <!-- Reject Quote Button-->
+    <Button
+        android:id="@+id/buttonRejectQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject Quote!"
+        android:backgroundTint="#c7eec6"/>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="#c7eec6"/>
+
+
+</LinearLayout>

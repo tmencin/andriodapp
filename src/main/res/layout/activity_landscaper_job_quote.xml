@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <!-- TextView Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide Job Quote"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- EditText First Name -->
+        <EditText
+            android:id="@+id/EditTextcustomer_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_firstName"
+            android:editable="false" />
+
+        <!-- EditText Last Name -->
+        <EditText
+            android:id="@+id/EditTextcustomer_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_lastName"
+            android:editable="false" />
+
+        <!-- EditText Address -->
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Address"
+            android:editable="false" />
+
+        <!-- EditText Email -->
+        <EditText
+            android:id="@+id/customer_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_Email"
+            android:editable="false" />
+
+        <!-- EditText Phone -->
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:editable="false" />
+
+        <!-- EditText Task Describtion -->
+        <EditText
+            android:id="@+id/task_describtion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_describtion"
+            android:editable="false" />
+
+        <!-- EditText Max Budget -->
+        <EditText
+            android:id="@+id/editTextMaxBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Max Budget"
+            android:editable="false"  />
+
+        <!-- EditText Start date -->
+        <EditText
+            android:id="@+id/edittextStartdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Start date:"
+            android:editable="false" />
+
+        <!-- EditText Start Time -->
+        <EditText
+            android:id="@+id/edittextStarttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Start Time:"
+            android:editable="false"  />
+
+        <!-- EditText Price -->
+        <EditText
+            android:id="@+id/edittextPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:inputType="number" />
+
+        <!-- Send Job Quote -->
+        <Button
+            android:id="@+id/buttonJobQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click here to send Quote"
+            android:backgroundTint="#c7eec6"
+            />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#c7eec6"
+            />
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <!-- EditText First Name-->
+    <EditText
+        android:id="@+id/customer_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_firstName"
+        android:editable="false"
+        />
+
+    <!-- EditText Last Name-->
+    <EditText
+        android:id="@+id/customer_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_lastName"
+        android:editable="false"
+        />
+
+    <!-- EditText Address-->
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:editable="false"
+        />
+
+    <!-- EditText Email -->
+    <EditText
+        android:id="@+id/customer_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_Email"
+        android:editable="false"
+        />
+
+    <!-- EditText Phone-->
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:editable="false"
+        />
+
+    <!-- EditText Task Describtion -->
+    <EditText
+        android:id="@+id/task_describtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_describtion"
+        android:inputType="text"
+        />
+
+    <!-- EditText Max Budget-->
+    <EditText
+        android:id="@+id/editTextMaxBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Max Budget"
+        android:inputType="number"
+        />
+
+    <!-- EditText StartDate-->
+    <EditText
+        android:id="@+id/etStartdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Click here to Select a date!"
+        android:editable="false"
+        />
+
+    <!-- EditText StartTime-->
+    <EditText
+        android:id="@+id/etStarttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Click here to Time"
+        android:editable="false"
+        />
+
+    <!-- Button Requested Job -->
+    <Button
+        android:id="@+id/requestjobbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/requestjobbutton"
+        android:backgroundTint="#c7eec6"
+        />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="#c7eec6"
+        />
+
+</LinearLayout>

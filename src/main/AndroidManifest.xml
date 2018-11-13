@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.poplartree">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="16"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomerWelcome"
+            android:label="@string/title_activity_customer_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CustomerRegister" />
+        <activity android:name=".CustomerRequestedJobForm" />
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".StaffLogin" />
+        <activity android:name=".LandscaperActivity" />
+        <activity
+            android:name=".LandscaperJobQuote"
+            android:label="@string/title_activity_landscaper_job_quote"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StaffRegistration" />
+        <activity android:name=".AdminJobQuote" />
+        <activity android:name=".LandscaperJobQuoteView" />
+        <activity
+            android:name=".CustomerViewJobQuote"
+            android:label="@string/title_activity_customer_view_job_quote"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LandscaperViewJobs" />
+        <activity android:name=".CustomerInvoice" />
+        <activity android:name=".CustomerHistoryAndFeedback" />
+        <activity android:name=".LandscaperHistory"></activity>
+    </application>
+
+</manifest>

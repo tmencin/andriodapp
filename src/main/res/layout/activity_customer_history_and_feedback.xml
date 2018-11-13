@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.CustomerHistoryAndFeedback">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History and Provide Feedback"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <!-- TextView Selection Screen Display -->
+        <TextView
+            android:id="@+id/selectionscreentextview_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lv_mainlist"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="Nothing Selected! Please select Completed Job"
+            android:textSize="18sp" />
+
+
+        <!-- EditText Feedback-->
+        <EditText
+            android:id="@+id/EditTextFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:hint="Tell us what you loved! Type here"
+            android:inputType="text" />
+
+        <!-- RatingBar for ratiing-->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="1" />
+
+        <!-- Send Feedback Button-->
+        <Button
+            android:id="@+id/buttonFeedback"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#c7eec6"
+            android:text="Send Feedback" />
+        <!-- Back Button-->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7eec6"
+            android:text="Back" />
+
+        <!-- TextView Completed Jobs -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Completed Jobs:" />
+
+        <!-- ListView for Completed Jobs-->
+        <ListView
+            android:id="@+id/lv_mainlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectionscreentextview_display" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

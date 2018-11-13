@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poplartree.MainActivity"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_margin="20dp">
+
+        <!-- Poplar Logo -->
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src ="@drawable/poplarlogo"
+            android:layout_margin="20dp"/>
+
+        <!-- Textview Welcome Customer page -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Customer Page! Please select" />
+
+        <!--Customer Login Button -->
+        <Button
+            android:id="@+id/buttonCustomerLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint=	"#c7eec6"
+            android:text="Login"
+            />
+
+        <!--Customer Register -->
+        <Button
+            android:id="@+id/buttonCustomerRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint = "#c7eec6"
+            android:text="Register"
+            />
+
+
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#c7eec6"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
